@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#bgVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.header {
+    background: rgba(0, 51, 102, 0.8);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+.welcome, .why-choose-us, .exclusive-package, .coming-soon, .contact {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #003366;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #eee;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-left: 5px solid #003366;
+}
+
+footer {
+    background: rgba(0, 51, 102, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+.media-container {
+    margin-top: 20px;
+}
+
+.media {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
